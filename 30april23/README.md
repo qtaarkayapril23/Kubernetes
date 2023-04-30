@@ -72,12 +72,13 @@ kubectl version --short --client
 ### Configure Working Directory
 * Create a new directory where you want to house your project, then navigate to the directory and create the following files:
 
-* terraform.tf
-* variables.tf
-* vpc.tf
-* outputs.tf
-* eks-cluster.tf
-* main.tf
+* terraform.tf [Refer Here](https://github.com/qtaarkayapril23/Kubernetes/blob/main/30april23/terraform.tf)
+* variables.tf [Refer Here](https://github.com/qtaarkayapril23/Kubernetes/blob/main/30april23/variables.tf)
+* vpc.tf [Refer Here](https://github.com/qtaarkayapril23/Kubernetes/blob/main/30april23/vpc.tf)
+* outputs.tf [Refer Here](https://github.com/qtaarkayapril23/Kubernetes/blob/main/30april23/outputs.tf)
+* eks-cluster.tf [Refer Here](https://github.com/qtaarkayapril23/Kubernetes/blob/main/30april23/eks-cluster.tf)
+* main.tf [Refer Here](https://github.com/qtaarkayapril23/Kubernetes/blob/main/30april23/main.tf)
+
 
 * Your directory should look like this:
 ![Preview](Images/k8s4.png)
