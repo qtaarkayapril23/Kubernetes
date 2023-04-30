@@ -18,3 +18,5 @@ kubectl apply -f [file-name].yaml
 ```
 kubectl delete -f [file-name].yaml
 ```
+
+
