@@ -2,8 +2,8 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata: 
-  name: aarkay-read-role
-  namespace: aarkay
+  name: roboshop-read-role
+  namespace: roboshop
 rules: 
   - apiGroups: ["*"] # "" indicates the core API group
     resources: ["*"]
@@ -13,13 +13,13 @@ rules:
 apiVersion: rbac.authorization.k8s.io
 kind: RoleBinding
 metadata: 
-  name: aarkay-read-rolebinding
-  namespace: aarkay
+  name: roboshop-read-rolebinding
+  namespace: roboshop
 roleRef:
   kind: Role
-  name: aarkay-read-role
+  name: roboshop-read-role
   apiGroup: rbac.authorization.k8s.io
 subjects:
 - kind: User
-  name: aarkay
+  name: roboshop
   apiGroup: rbac.authorization.k8s.io  
